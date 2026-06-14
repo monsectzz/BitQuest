@@ -26,7 +26,7 @@ void imprimir_mapa(char mapa[FILAS][COLS], Jugador *j, int nivel);
 int  mover_jugador(char mapa[FILAS][COLS], Jugador *j);
 void resumen_nivel(Jugador *j, int total_monedas, int nivel);
 void resumen_final(int monedas_total, int monedas_posibles,
-                   int pasos_total, int puntaje);
+                int pasos_total, int puntaje);
 
 /* Funciones en NASM */
 extern long long contar_caracter(char *mapa, int total, char c);
